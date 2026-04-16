@@ -8,8 +8,8 @@ import Navbar from "./Components/Navbar/Navbar";
 import Skills from "./Components/Skills/Skills";
 
 import Projects from "./Pages/Projects/Projects";
-import Certificate from "./Pages/Certificates/certificate";
 import Internships from "./Pages/Internships/Internships";
+import Certi from "./Pages/Certificates/Certi";
 
 
 function Home() {
@@ -33,7 +33,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects/>} />
-          <Route path="/certificate" element={<Certificate/>}/>
+          <Route path="/certificate" element={<Certi/>}/>
           <Route path="/internships" element={<Internships/>}/>
         </Routes>
 
